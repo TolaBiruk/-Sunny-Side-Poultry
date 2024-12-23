@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:white;
+  margin: 40px;
+  padding: 20px;;
+}
+.image1 {
+  background-image: url(../image/Mo.jpg);
+  height: 200px;
+  background-size: cover;
+  width: 300px;
+  display: flex;
+  margin: 2%auto;
+}
+.image2 {
+  background-image: url(../image/images\ \(1\).jpg);
+  height: 200px;
+  background-size: cover;
+  width: 300px;
+  display: flex;
+  margin: 2%auto;
+}
+.image3{
+
+  background-image: url(../image/image.png);
+  height: 200px;
+  background-size: cover;
+  width: 300px;
+  display: flex;
+  margin: 2%auto;
+}
+.key{
+  background-color: chocolate;
+  font-style: italic;
+}
+@media(min-width:800px){
+  .about{
+    display: flex;
+  }
+  body{
+    background-color: rgb(113, 165, 168);
+  }
+.love{
+  display:flex;
+}
+  
+}
+@media(min-width:1000px){
+  body{
+    background-color: rgb(18, 194, 71);
+  }
+}
